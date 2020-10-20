@@ -1,0 +1,25 @@
+2020-10-20 19:44:34,299 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-20 19:44:34,299 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\User\PycharmProjects\instagram\venv\lib\site-packages\instabot\bot\bot.py
+2020-10-20 19:44:34,303 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-20 19:44:34,303 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-20 19:44:34,303 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\User\PycharmProjects\instagram/config/spacemongoose_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7452a544-004c-40f5-9c7f-4b3dda34ecd8
+- uuid=17f9265b-1886-445a-a5f7-39ab3ee6c39e
+- client_session_id=c9410975-76b7-4bdf-b100-b8cfd55f167a
+- device_id=android-8e6eac4cc5afefa9
+2020-10-20 19:44:34,304 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-20 19:44:36,099 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-20 19:44:36,596 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-20 19:44:36,598 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'spacemongoose'!
+2020-10-20 19:44:36,599 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\PycharmProjects\instagram/config/spacemongoose.checkpoint
+2020-10-20 19:44:39,901 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-20 19:44:39,901 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex0.jpg' is not uploaded.
+2020-10-20 19:45:01,668 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-20 19:45:01,929 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-20 19:45:01,929 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex1.jpg' is uploaded.
+2020-10-20 19:45:22,769 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-20 19:45:22,981 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-20 19:45:22,982 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex2.jpg' is uploaded.
+2020-10-20 19:45:22,983 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\PycharmProjects\instagram/config/spacemongoose.checkpoint
+2020-10-20 19:45:22,983 - instabot version: 0.117.0 (bot) - INFO - Total requests: 91

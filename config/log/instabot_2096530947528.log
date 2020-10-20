@@ -1,0 +1,24 @@
+2020-10-20 18:53:12,027 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-20 18:53:12,028 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\User\PycharmProjects\instagram\venv\lib\site-packages\instabot\bot\bot.py
+2020-10-20 18:53:12,035 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-20 18:53:12,035 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-20 18:53:12,035 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\User\PycharmProjects\instagram/config/spacemongoose_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7452a544-004c-40f5-9c7f-4b3dda34ecd8
+- uuid=17f9265b-1886-445a-a5f7-39ab3ee6c39e
+- client_session_id=7426796a-480b-426d-8c03-daf16b40572e
+- device_id=android-8e6eac4cc5afefa9
+2020-10-20 18:53:12,035 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-20 18:53:15,400 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-20 18:53:15,772 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-20 18:53:16,208 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-10-20 18:53:16,462 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-10-20 18:53:16,736 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-10-20 18:53:16,996 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-10-20 18:53:17,750 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-10-20 18:53:18,000 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-10-20 18:53:19,540 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-10-20 18:53:19,541 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'spacemongoose'!
+2020-10-20 18:53:19,541 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\PycharmProjects\instagram/config/spacemongoose.checkpoint
+2020-10-20 18:53:23,869 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-20 18:53:23,869 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex0.jpg' is not uploaded.

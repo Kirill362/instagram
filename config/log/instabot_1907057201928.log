@@ -1,0 +1,14 @@
+2020-10-09 20:09:31,810 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-09 20:09:31,810 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\User\PycharmProjects\instagram\venv\lib\site-packages\instabot\bot\bot.py
+2020-10-09 20:09:31,810 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-10-09 20:09:32,083 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-10-09 20:09:32,316 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-10-09 20:09:32,547 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-10-09 20:09:32,848 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-10-09 20:09:34,169 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-10-09 20:09:34,169 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/8768851327/lDTkOzZ8n3/", "api_path": "/challenge/8768851327/lDTkOzZ8n3/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true, "flow_render_type": 0}, "status": "fail", "error_type": "checkpoint_challenge_required"}'
+2020-10-09 20:09:34,169 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-10-09 20:09:34,169 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-10-09 20:09:34,170 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2020-10-09 20:09:39,073 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-09 20:09:39,073 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex0.jpg' is not uploaded.

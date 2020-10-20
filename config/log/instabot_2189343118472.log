@@ -1,0 +1,84 @@
+2020-10-16 19:06:39,506 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-16 19:06:39,507 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\User\PycharmProjects\instagram\venv\lib\site-packages\instabot\bot\bot.py
+2020-10-16 19:06:39,510 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-16 19:06:39,511 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-16 19:06:39,511 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\User\PycharmProjects\instagram/config/spacemongoose_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7452a544-004c-40f5-9c7f-4b3dda34ecd8
+- uuid=17f9265b-1886-445a-a5f7-39ab3ee6c39e
+- client_session_id=7426796a-480b-426d-8c03-daf16b40572e
+- device_id=android-8e6eac4cc5afefa9
+2020-10-16 19:06:39,511 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-16 19:06:40,682 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-16 19:06:40,961 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-16 19:06:40,962 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'spacemongoose'!
+2020-10-16 19:06:40,962 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\PycharmProjects\instagram/config/spacemongoose.checkpoint
+2020-10-16 19:06:43,557 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-16 19:06:43,558 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex0.jpg' is not uploaded.
+2020-10-16 19:07:03,382 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:07:03,594 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:07:03,594 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex1.jpg' is uploaded.
+2020-10-16 19:07:25,925 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:07:26,150 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:07:26,151 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/spacex2.jpg' is uploaded.
+2020-10-16 19:07:36,645 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-16 19:07:36,645 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4521.jpg' is not uploaded.
+2020-10-16 19:07:47,644 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-16 19:07:47,644 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4520.jpg' is not uploaded.
+2020-10-16 19:08:12,079 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:08:12,303 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:08:12,304 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4538.jpg' is uploaded.
+2020-10-16 19:08:39,255 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:08:39,465 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:08:39,467 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4522.jpg' is uploaded.
+2020-10-16 19:09:15,849 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-16 19:09:15,850 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3813.jpg' is not uploaded.
+2020-10-16 19:11:39,249 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:11:39,469 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:11:39,470 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3812.jpg' is uploaded.
+2020-10-16 19:12:14,433 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:12:19,155 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:12:19,156 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3804.jpg' is uploaded.
+2020-10-16 19:13:05,343 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:13:05,565 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:13:05,566 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3810.jpg' is uploaded.
+2020-10-16 19:15:30,767 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-16 19:15:30,767 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3807.jpg' is not uploaded.
+2020-10-16 19:17:41,451 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:17:41,659 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:17:41,660 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3806.jpg' is uploaded.
+2020-10-16 19:18:58,706 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:18:58,911 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:18:58,912 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3808.jpg' is uploaded.
+2020-10-16 19:19:37,158 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:19:37,604 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:19:37,604 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4537.jpg' is uploaded.
+2020-10-16 19:20:55,311 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:20:55,513 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:20:55,515 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3811.jpg' is uploaded.
+2020-10-16 19:21:22,125 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:21:22,325 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:21:22,326 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3809.jpg' is uploaded.
+2020-10-16 19:21:49,751 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:21:49,972 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:21:49,973 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3805.jpg' is uploaded.
+2020-10-16 19:23:05,861 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:23:06,056 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:23:06,057 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3814.jpg' is uploaded.
+2020-10-16 19:23:27,515 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:23:27,724 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:23:27,724 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4536.jpg' is uploaded.
+2020-10-16 19:23:50,819 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:23:51,041 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:23:51,042 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3835.jpg' is uploaded.
+2020-10-16 19:25:19,382 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:25:19,595 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:25:19,596 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3833.jpg' is uploaded.
+2020-10-16 19:25:44,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:25:44,700 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:25:44,701 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_3832.jpg' is uploaded.
+2020-10-16 19:27:14,627 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-16 19:27:14,835 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-16 19:27:14,836 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './ready_images/Hubble_4535.jpg' is uploaded.
+2020-10-16 19:27:15,997 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\PycharmProjects\instagram/config/spacemongoose.checkpoint
+2020-10-16 19:27:15,997 - instabot version: 0.117.0 (bot) - INFO - Total requests: 83
