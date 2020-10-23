@@ -1,9 +1,19 @@
 import requests
 import os
+from download_image import download_images
+from dotenv import load_dotenv
 
 
-def detect_extension(url):
-  return(url.split(".")[-1])
+def main():
+  load_dotenv()
+
+  IMAGES_FOLDER = os.environ['IMAGES_FOLDER']
+  IMAGES_ID = 99
+  spacex_url = f"https://api.spacexdata.com/v3/launches/{IMAGES_ID}"
+
+  os.makedirs(IMAGES_FOLDER, exist_ok=True)
+
+  fetch_spacex_last_launch(spacex_url)
 
 
 def fetch_spacex_last_launch(url):
@@ -11,20 +21,8 @@ def fetch_spacex_last_launch(url):
   response.raise_for_status()
   spacex_images = response.json()["links"]["flickr_images"]
   for index, image in enumerate(spacex_images):
-    download_images(image, f"spacex{index}", detect_extension(image))
+    download_images(image, f"spacex{index}", os.path.splitext(image)[1])
 
 
-def download_images(url, filename, extension):
-  response = requests.get(url, verify=False)
-  response.raise_for_status()
-  image_path = f"./images/{filename}.{extension}"
-  with open(image_path, 'wb') as file:
-    file.write(response.content)
-
-
-IMAGES_ID = 99
-spacex_url = f"https://api.spacexdata.com/v3/launches/{IMAGES_ID}"
-
-os.makedirs("./images", exist_ok=True)
-
-fetch_spacex_last_launch(spacex_url)
+if __name__ == '__main__':
+  main()
