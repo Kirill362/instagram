@@ -3,12 +3,12 @@ import os
 from download_image import download_images
 from dotenv import load_dotenv
 
+load_dotenv()
+IMAGES_FOLDER = os.environ['IMAGES_FOLDER']
+IMAGES_ID = 99
+
 
 def main():
-  load_dotenv()
-
-  IMAGES_FOLDER = os.environ['IMAGES_FOLDER']
-  IMAGES_ID = 99
   spacex_url = f"https://api.spacexdata.com/v3/launches/{IMAGES_ID}"
 
   os.makedirs(IMAGES_FOLDER, exist_ok=True)

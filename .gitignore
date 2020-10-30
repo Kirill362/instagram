@@ -5,3 +5,4 @@ ready_images
 .env
 config
 __pycache__
+*.jpg
