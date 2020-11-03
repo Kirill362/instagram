@@ -1,14 +1,9 @@
 import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-IMAGES_FOLDER = os.environ['IMAGES_FOLDER']
 
 
-def download_images(url, filename, extension):
+def download_images(url, filename, extension, images_folder):
   response = requests.get(url, verify=False)
   response.raise_for_status()
-  image_path = f"{IMAGES_FOLDER}/{filename}{extension}"
+  image_path = f"{images_folder}/{filename}{extension}"
   with open(image_path, 'wb') as file:
     file.write(response.content)

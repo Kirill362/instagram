@@ -3,22 +3,22 @@ from instabot import Bot
 from PIL import Image
 from dotenv import load_dotenv
 
-load_dotenv()
-IMAGES_FOLDER = os.environ['IMAGES_FOLDER']
-LOGIN = os.environ['LOGIN']
-PASSWORD = os.environ['PASSWORD']
-
 
 def main():
-    bot = Bot()
-    bot.login(username=LOGIN, password=PASSWORD)
+    load_dotenv()
+    images_folder = os.environ['IMAGES_FOLDER']
+    login = os.environ['LOGIN']
+    password = os.environ['PASSWORD']
 
-    os.makedirs(IMAGES_FOLDER, exist_ok=True)
+    bot = Bot()
+    bot.login(username=login, password=password)
+
+    os.makedirs(images_folder, exist_ok=True)
     os.makedirs("./ready_images", exist_ok=True)
-    images = os.listdir(IMAGES_FOLDER)
+    images = os.listdir(images_folder)
 
     for filename in images:
-        image_path = f"{IMAGES_FOLDER}/{filename}"
+        image_path = f"{images_folder}/{filename}"
         image = Image.open(image_path)
         image.thumbnail((1080, 1080))
         image_name = filename.split(".")[0]
